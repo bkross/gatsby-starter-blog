@@ -1,0 +1,72 @@
+[
+  {
+    "ts": "2018-10-24T04:50:24.256Z",
+    "level": "error",
+    "error": {
+      "name": "UnknownKey",
+      "entity": {
+        "name": "U.S. English",
+        "code": "en-US",
+        "fallbackCode": null,
+        "default": true,
+        "contentManagementApi": true,
+        "contentDeliveryApi": true,
+        "optional": false,
+        "sys": {
+          "type": "Locale",
+          "id": "3Bb4qrZtqLzwN35dmTQ6a2",
+          "version": 0,
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "28p9vvm1oxuw"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "066RqBikAjzKy0SWUEtFvH"
+            }
+          },
+          "createdAt": "2017-05-11T12:01:17Z",
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "066RqBikAjzKy0SWUEtFvH"
+            }
+          },
+          "updatedAt": "2017-05-11T12:01:17Z"
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "The body you sent contains an unknown key.",
+        "details": {
+          "keys": [
+            "default"
+          ]
+        },
+        "request": {
+          "url": "https://api.contentful.com:443/spaces/xx8j7cgjnlpp/environments/master/locales/5b4y7TrlcMjqAS6ThRQgD4",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/7.4.1; feature library-import; sdk contentful-management.js/5.2.1; platform node.js/v10.8.0; os macOS/18.0.0;",
+            "Authorization": "Bearer ...7034a",
+            "user-agent": "node.js/v10.8.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 1,
+            "Content-Length": 144
+          },
+          "method": "put",
+          "payloadData": "{\"name\":\"U.S. English\",\"code\":\"en-US\",\"fallbackCode\":null,\"default\":true,\"contentManagementApi\":true,\"contentDeliveryApi\":true,\"optional\":false}"
+        },
+        "requestId": "2da9e861113380e96a46d2ffe79c251d"
+      }
+    }
+  }
+]
