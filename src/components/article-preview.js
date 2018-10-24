@@ -16,5 +16,6 @@ export default ({ article }) => (
         __html: article.description.childMarkdownRemark.html,
       }}
     />
+  <span></span>
   </div>
 )
